@@ -4,13 +4,9 @@ import asyncio
 
 TOKEN = 'NTcxNzA3NDAxNDE4NTcxNzc4.Gm70-W.sOQ_IQr0FH-FomIgz1Kb1d1DbHEJVT9QnySeLY'
 
-intents = discord.Intents.default()  # Требование selfcord указывания интента.
-intents.messages = True
-
 client = commands.Bot(
     command_prefix='!',
-    self_bot=True,
-    intents=intents
+    self_bot=True
 )
 
 CHANNEL_1_ID = 1181428134676013056
