@@ -6,7 +6,8 @@ TOKEN = 'NTcxNzA3NDAxNDE4NTcxNzc4.Gm70-W.sOQ_IQr0FH-FomIgz1Kb1d1DbHEJVT9QnySeLY'
 
 client = commands.Bot(
     command_prefix='!',
-    self_bot=True
+    self_bot=True,
+    intents=None
 )
 
 CHANNEL_1_ID = 1181428134676013056
